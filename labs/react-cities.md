@@ -20,7 +20,7 @@ Here is a [working version](https://codepen.io/jkeohan/live/850f8454693590e9772f
 The solution above was implemented using jQuery so there is no React code to inspect via DevTools.  It is meant to provide a working example of the apps functionality. 
 
 ## Starter CodeSandbox
-Here is our [Starter CodeSandbox](https://codesandbox.io/s/rctr-9-8-20-react-cities-starter-kpsk5)
+The starter code is in the ```react-cities-starter``` folder
 
 
 ## Instructions
@@ -58,14 +58,7 @@ OR
 **Hint:** Since you already know how to use the style prop  AND know about ternary operators, try combining the two together and assign a border based on the result of a ternary operator. 
 
 
-## Bonus 1 - Traffic Light
-
-Convert the following [Traffic Light](https://codepen.io/jkeohan/live/MWYEyMV) into a single React Component and implement the logic needed to perform the functionality in the app. 
-
-
-Here is the [jQuery Solution](https://codepen.io/jkeohan/pen/MWYEyMV?editors=1010) code which shows an instance of using a `switch` statement.  
-
-## Bonus 2 - Memory Game
+## Bonus - Memory Game
 
 Convert the following [CodePen](https://codepen.io/jkeohan/live/opvVGN) into a single React Component and implement the logic for click events and adding state.
 
@@ -104,18 +97,6 @@ const cardsArr = [
 ```
 
 </details>
-
-## Bonus 3 - Lifting State
-
-This is an advanced bonus and requires that you do additional research on lifting react state. 
-
-Try creating additional components for the images. You will most certainly run into issues with breaking the **onClick** functionaltiy. 
-
-Here are some resources on lifting react state:
-
-- Easy Read: [change-parent-component-state-from-child-using-hooks-in-react](https://webomnizz.com/change-parent-component-state-from-child-using-hooks-in-react/)
-- Difficult Read: [react-lift-state](https://www.robinwieruch.de/react-lift-state)
-
 
 ## Plagiarism
 

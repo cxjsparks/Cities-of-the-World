@@ -2,6 +2,7 @@
 Title: Intro to State<br>
 Duration: 3hrs+ <br>
 Creator:  Joe Keohan<br>
+Editor: Nathaniel Stack
 
 ---
 
@@ -49,24 +50,6 @@ Props are a great way to pass data but have the following limitations:
 <hr>
 
 
-#### :mag: Check for Understanding 
-
-- Take a few minutes to think about and write your answers to the following questions:
-  - What do we use `props` for?
-  - What limitations do `props` have?
-  - Is there any best practice you can think of when creating a `prop`?
-
-:thumbsup: Click on the thumbs up when your done.
-
-When asked slack your answer(s) in a thread created by the instructor
-
-<details><summary>Best Answer</summary>
-
-
-
-</details>
-<hr>
-
 ## Intro To State
 
 In our attempt to provide a coherent framing of React `state` the point was made that what you see on the page is the current version of the applications `state`. Any changes to `state` will then be reflected in the UI.
@@ -101,13 +84,7 @@ We'll walk through building a very simple `Counter` Component which will do the 
 
 #### Spin Up A New CodeSandbox
 
-For this demo you will spin up a new CodeSandbox. To do this just click on the blue `Create Sandbox` button on the right of the page. 
-
-<img src="https://i.imgur.com/N0qsmdh.png" width=200/>
-
-Now scroll down to the `Official Templates` section and choose `React by CodeSandbox`.
-
-<img src="https://i.imgur.com/dgdr5A8.png" width=300/><br>
+For this demo you will create a new react app with ```npx create-react-app```
 
 :thumbsup: Click on the thumbs up when your done.
 
@@ -203,44 +180,9 @@ Hooks were introduced in `React Version 16.8`. Before hooks, all state needed to
 
 Hooks introduce state management to `Functional` components, using a simpler and more flexible API and let you split one component into smaller functions based on what pieces were needed.
 
-**Class Compoonent State Example**
-
-Class components come with a lot of boilerplate, which can feel bulky, especially when dealing with a simpler state. 
-
-<hr>
-
-**Instructor Demo**
-
-> The instructor will perform a small demo of creating a class based Component that includes state.  Not need to code along as none of the following code will be used in building the Counter App. 
-
-Here is how state would have been configured using a class Component. 
-
-```js
-class Counter extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {count: 0}
-  }
-  render() {}
-}
-```
-
-Although with the the next most recent ES (Ecma Script) class properties proposal and the help of` Babel` to transpile the codem the above could be written as:
-
-```js
-class Counter extends React.Component {
-
-  state = {count: 0}
-
-  render() {}
-}
-```
-
-<hr>
-
 **State of Transition**
 
-We are currently in a `state of transition` in world of React. Hooks were a game changer and have become the tool of choice when writing React in 2020.  
+We are currently in a `state of transition` in world of React. Hooks were a game changer and have become the tool of choice when writing React in 2021.  
 
 Keep in mind however that there is way more code out there written in the previous syntax but Hooks and any research you perform on React will almost certainly show Class based solutions unless you include the keyword `Hook` in your search query. 
 
