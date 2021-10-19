@@ -37,43 +37,9 @@ The client has now requested that the following features be built into the app:
 - color coding an elements background based on which button was clicked
 - keep a record of which button was clicked and the current day/time
 
-<hr>
-
-#### <g-emoji class="g-emoji" alias="alarm_clock" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/23f0.png">⏰</g-emoji> Activity - 10min
-
-Based on your ever expanding knowledge of React discuss in your group how you might go about implementing the following requirements.
-
-Take into consideration the functionality implemented thus far in other apps we've built, React or otherwise:
-
-- conditional rendering of values (ternary operators for example)
-- onClick events and their handlers
-- possible data types to use such as objects and arrays
-
-Deliverables
-
-- the group should jot down any and all ideas they have in how to implement each requirement.
-- One person should be elected per group to slack out the ideas, per requirement, when asked. 
-
-:thumbsup: - Click on the thumbs up when your done.
-
-- The instructor will then ask to each group to slack out ideas related to the specific requirement in sequence.  We will review each one in turn.
-
-
-<hr>
-
-Those were all great ideas!!!.  Let's move onto implement a few of them but first let's discuss several ways that we can keep track of additional state values:
-
-- create an additional instances of useState
-- aggregate all state values into a single object 
-- aggregate multiple state values into an array of objects
-
 ### Multiple Instances of useState
 
 Let's continue to work through the Counter Component and take the first approach of adding an additional instance of state.
-
-Here is the [Counter CodeSandbox Starter](https://codesandbox.io/s/rctr-9-8-20-w02d04-counter-starter-71oc2?file=/src/Counter.js) code with the changes from the previous lecture. 
-
-**Note:** Feel free to fork this CodeSandbox if you missed last class or want a fresh codebase to start your day.
 
 As a quick review here is what we need to do: 
 
