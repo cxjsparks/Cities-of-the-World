@@ -82,7 +82,7 @@ We'll walk through building a very simple `Counter` Component which will do the 
 -  provide the user 2 buttons to increment or decrement
 - display the initial and update value as it changes 
 
-#### Spin Up A New CodeSandbox
+#### Spin Up A New React Project
 
 For this demo you will create a new react app with ```npx create-react-app```
 
