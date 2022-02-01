@@ -180,26 +180,6 @@ Hooks were introduced in `React Version 16.8`. Before hooks, all state needed to
 
 Hooks introduce state management to `Functional` components, using a simpler and more flexible API and let you split one component into smaller functions based on what pieces were needed.
 
-**State of Transition**
-
-We are currently in a `state of transition` in world of React. Hooks were a game changer and have become the tool of choice when writing React in 2021.  
-
-Keep in mind however that there is way more code out there written in the previous syntax but Hooks and any research you perform on React will almost certainly show Class based solutions unless you include the keyword `Hook` in your search query. 
-
-**Instructor Demo**
-
-> The instructor will perform a small demo of performing a Google search for updating state in React, with and without the keyword `Hook` 
-
-<hr>
-
-#### <g-emoji class="g-emoji" alias="alarm_clock" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/23f0.png">⏰</g-emoji> Activity - 2min
-
-Since we will be working with `Hooks` solely in this class let's take a minute to review the following React Docs:
-
-- [Hooks API Reference](https://reactjs.org/docs/hooks-reference.html) - all the available Hooks
-
-<hr>
-
 ### Importing useState
 
 Now it's time to import `useState` into the Counter Component.
